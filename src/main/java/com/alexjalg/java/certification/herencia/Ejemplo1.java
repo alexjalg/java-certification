@@ -15,6 +15,9 @@ public class Ejemplo1 {
 		System.out.println("CONSTRUCTOR EJEMPLO1");
 	}
 	
+	public void hacerAlgo() {
+		System.out.println("LO HICE EN LA PRIMERA");
+	}
 	
 
 

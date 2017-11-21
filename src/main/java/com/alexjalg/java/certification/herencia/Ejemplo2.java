@@ -17,8 +17,14 @@ public class Ejemplo2 extends Ejemplo1{
 		System.out.println("CONSTRUCTOR EJEMPLO2");		
 	}
 	
+	public void hacerAlgo() {
+		super.hacerAlgo();
+		System.out.println("LO HICE EN LA SEGUNDA");
+	}
+	
 	public static void main(String[] args) {
-		new Ejemplo2();
+		Ejemplo2 ejem = new Ejemplo2();
+		ejem.hacerAlgo();
 	}
 
 }
