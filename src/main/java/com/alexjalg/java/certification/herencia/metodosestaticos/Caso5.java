@@ -9,12 +9,12 @@ public class Caso5 {
 		z.method();
 		
 		Caso5W zPolimorphedAsW = z;
-		zPolimorphedAsW.method();
-		
-	}
+		zPolimorphedAsW.method();		
+	}	
 }
 
 class Caso5W {
+	
 	public static void method() {
 		System.out.println("W");		
 	}
